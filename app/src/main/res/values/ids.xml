@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="playerOne" type="id" />
+    <item name="playerOneScore" type="id" />
+    <item name="playerTwo" type="id" />
+    <item name="playerTwoScore" type="id" />
+    <item name="playerStatus" type="id" />
+    <item name="btn_0" type="id" />
+    <item name="btn_1" type="id" />
+    <item name="btn_2" type="id" />
+    <item name="btn_3" type="id" />
+    <item name="btn_4" type="id" />
+    <item name="btn_5" type="id" />
+</resources>

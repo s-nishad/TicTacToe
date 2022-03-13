@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".OnlinePlayActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/playerOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/player_one"
+            android:textColor="#301934"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="110dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/playerTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/player_two"
+            android:textColor="#301934"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp">
+
+
+        <TextView
+            android:id="@+id/playerOneScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:text="@string/_0"
+            android:textColor="#301934"
+            android:textSize="25sp" />
+
+        <Space
+            android:layout_width="262dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/playerTwoScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textColor="#301934"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/playerStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_semibold"
+            android:textAlignment="center"
+            android:textColor="#301934"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_0"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#283593"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#283593"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#283593"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#283593"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#283593"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#283593"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#283593"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#283593"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#283593"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:text="X's Turn - Tap to Play"
+            android:textAlignment="center"
+            android:textColor="#301934"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/resetGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#E1470D"
+            android:text="@string/reset_game"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</TableLayout>
