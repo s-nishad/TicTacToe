@@ -1,0 +1,152 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.learning.tictactoeapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shoha\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shoha\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:22-76
+16
+17    <application
+17-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:7:5-36:19
+18        android:allowBackup="true"
+18-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] C:\Users\shoha\.gradle\caches\transforms-3\8fff248dbe0397cca10a959cecdafd82\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:9:9-43
+22        android:label="@string/app_name"
+22-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:10:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:12:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.TicTacToeApp" >
+26-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:13:9-50
+27        <activity
+27-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:14:9-16:40
+28            android:name="com.learning.tictactoeapp.OnlineCodeGeneratorActivity"
+28-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:15:13-56
+29            android:exported="false" />
+29-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:16:13-37
+30        <activity
+30-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:17:9-19:40
+31            android:name="com.learning.tictactoeapp.OnlinePlayActivity"
+31-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:18:13-47
+32            android:exported="false" />
+32-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:19:13-37
+33        <activity
+33-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:20:9-22:40
+34            android:name="com.learning.tictactoeapp.OfflinePlayActivity"
+34-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:21:13-48
+35            android:exported="false" />
+35-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:22:13-37
+36        <activity
+36-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:23:9-31:20
+37            android:name="com.learning.tictactoeapp.MainActivity"
+37-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:24:13-41
+38            android:exported="true" >
+38-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:25:13-36
+39            <intent-filter>
+39-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:26:13-30:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:27:17-69
+40-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:27:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:29:17-77
+42-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:29:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:33:9-35:57
+47            android:name="preloaded_fonts"
+47-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:34:13-43
+48            android:resource="@array/preloaded_fonts" />
+48-->F:\Java Andriod Project\TicTacToeApp\app\src\main\AndroidManifest.xml:35:13-54
+49
+50        <service
+50-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shoha\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shoha\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:30:13-84
+52            android:directBootAware="true"
+52-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shoha\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+53            android:exported="false" >
+53-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shoha\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:31:13-37
+54            <meta-data
+54-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shoha\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+55                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+55-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shoha\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shoha\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+57        </service>
+58
+59        <provider
+59-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shoha\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+60            android:name="com.google.firebase.provider.FirebaseInitProvider"
+60-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shoha\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+61            android:authorities="com.learning.tictactoeapp.firebaseinitprovider"
+61-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shoha\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shoha\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+63            android:exported="false"
+63-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shoha\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+64            android:initOrder="100" />
+64-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shoha\.gradle\caches\transforms-3\987d36dafe5f80639e90f76af634d368\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shoha\.gradle\caches\transforms-3\99fb345143c18c83053fefa4b17998f5\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shoha\.gradle\caches\transforms-3\99fb345143c18c83053fefa4b17998f5\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shoha\.gradle\caches\transforms-3\99fb345143c18c83053fefa4b17998f5\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shoha\.gradle\caches\transforms-3\99fb345143c18c83053fefa4b17998f5\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+70
+71        <meta-data
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shoha\.gradle\caches\transforms-3\783a945d756ef4feb63c9c2fb3ee36c0\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+72            android:name="com.google.android.gms.version"
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shoha\.gradle\caches\transforms-3\783a945d756ef4feb63c9c2fb3ee36c0\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shoha\.gradle\caches\transforms-3\783a945d756ef4feb63c9c2fb3ee36c0\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shoha\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shoha\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+77            android:authorities="com.learning.tictactoeapp.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shoha\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shoha\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shoha\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shoha\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shoha\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shoha\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shoha\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shoha\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+85        </provider>
+86    </application>
+87
+88</manifest>
